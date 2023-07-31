@@ -1,8 +1,11 @@
 import React from 'react'
+import { Text } from 'react-native'
 
 function Login() {
   return (
-    <div>Login</div>
+    <Text>
+      Login Page
+    </Text>
   )
 }
 

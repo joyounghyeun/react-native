@@ -4,8 +4,8 @@ import Login from './component/Login';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Lgoin />
+    <View>
+      <Login />
     </View>
   );
 }

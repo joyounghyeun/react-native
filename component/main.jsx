@@ -1,8 +1,11 @@
 import React from 'react'
+import { Text } from 'react-native'
 
 function main() {
   return (
-    <div>main</div>
+    <Text>
+      Main Page
+    </Text>
   )
 }
 
