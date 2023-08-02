@@ -1,12 +1,17 @@
-import React from 'react'
-import { Text } from 'react-native'
+import React from "react";
+import { Text } from "react-native";
 
 function main() {
   return (
-    <Text>
-      Main Page
-    </Text>
-  )
+    <StView>
+      <Text>Main Page</Text>
+    </StView>
+  );
 }
 
-export default main
+export default main;
+
+const StView = styled.View`
+  margin-top: 200px;
+  margin-left: 500px;
+`;
